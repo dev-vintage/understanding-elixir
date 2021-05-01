@@ -16,7 +16,27 @@ José Valim is the Brazilian creator of the programming language Elixir, an R&D 
 
 On July 12, 2018, Honeypot released a mini-documentary on the Elixir language.
 
+<hr>
 
+## Examples
+
+Classic example of Hello world :
+
+```ex
+iex> IO.puts "Hello World!"
+```
+
+Modules
+
+```ex
+defmodule  Fun  do 
+  def  fib ( 0 ),  do :  0 
+  def  fib ( 1 ),  do :  1 
+  def  fib ( n )  do 
+    fib ( n - 2 )  +  fib ( n - 1 ) 
+  end 
+end
+```
 
 
 
